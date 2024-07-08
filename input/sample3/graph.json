@@ -1,0 +1,57 @@
+[
+  {
+    "from": "J",
+    "to": [
+      {
+        "duration" : 5,
+        "node": "K",
+        "name" : "j-k"
+      }
+    ]
+  },
+  {
+    "from": "K",
+    "to": [
+      {
+        "duration" : 2,
+        "node": "L",
+        "name" : "k-l"
+      },
+      {
+        "duration" : 4,
+        "node": "M",
+        "name" : "k-m"
+      }
+    ]
+  },
+  {
+    "from": "L",
+    "to": [
+      {
+        "duration" : 2,
+        "node": "N",
+        "name" : "l-n"
+      }
+    ]
+  },
+  {
+    "from": "M",
+    "to": [
+      {
+        "duration" : 3,
+        "node": "N",
+        "name" : "m-n"
+      }
+    ]
+  },
+  {
+    "from": "N",
+    "to": [
+      {
+        "duration" : 4,
+        "node": "P",
+        "name" : "n-p"
+      }
+    ]
+  }
+]
