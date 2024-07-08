@@ -1,0 +1,5 @@
+[
+  {"name":  "p1", "weight" : 10, "starting":  "A", "destination" :  "F"},
+  {"name":  "p2", "weight" : 10, "starting":  "A", "destination" :  "E"},
+  {"name":  "p3", "weight" : 50, "starting":  "B", "destination" :  "C"}
+]

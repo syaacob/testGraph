@@ -1,0 +1,12 @@
+[
+  {
+    "name" : "train_1",
+    "capacity" : 30,
+    "starting" : "A"
+  },
+  {
+    "name" : "train_2",
+    "capacity" : 50,
+    "starting" : "B"
+  }
+]

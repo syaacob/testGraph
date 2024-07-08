@@ -1,0 +1,62 @@
+[
+  {
+    "from": "A",
+    "to": [
+      {
+        "duration" : 5,
+        "node": "B",
+        "name" : "a-b"
+      },
+      {
+        "duration" : 10,
+        "node": "C",
+        "name" : "a-c"
+      }
+    ]
+  },
+  {
+    "from": "B",
+    "to": [
+      {
+        "duration" : 3,
+        "node": "D",
+        "name" : "b-d"
+      }
+    ]
+  },
+  {
+    "from": "C",
+    "to": [
+      {
+        "duration" : 4,
+        "node": "E",
+        "name" : "e-f"
+      }
+    ]
+  },
+  {
+    "from": "D",
+    "to": [
+      {
+        "duration" : 3,
+        "node": "F",
+        "name" : "d-f"
+      },
+      {
+        "duration" : 2,
+        "node": "E",
+        "name" : "d-e"
+      }
+    ]
+  },
+  {
+    "from": "E",
+    "to": [
+      {
+        "duration" : 4,
+        "node": "F",
+        "name" : "e-f"
+      }
+    ]
+  }
+]

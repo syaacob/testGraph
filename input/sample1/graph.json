@@ -1,0 +1,22 @@
+[
+  {
+    "from": "A",
+    "to": [
+      {
+        "duration" : 30,
+        "node": "B",
+        "name" : "E1"
+      }
+    ]
+  },
+  {
+    "from": "B",
+    "to": [
+      {
+        "duration" : 10,
+        "node": "C",
+        "name" : "E2"
+      }
+    ]
+  }
+]
