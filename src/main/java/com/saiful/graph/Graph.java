@@ -44,12 +44,13 @@ public class Graph {
 
     public void display() {
         StringBuilder builder = new StringBuilder();
-        for (Map.Entry<Vertex, HashMap<Vertex, Integer>> map : adjVertices.entrySet()) {
+        for (Map.Entry<Vertex, HashMap<Vertex, Edge>> map : adjEdgeVertices.entrySet()) {
             builder.append(map.getKey().getName()).append(":");
 
-            for (Map.Entry<Vertex, Integer> child: map.getValue().entrySet()){
-                builder.append(child.getKey().getName()).append("(").append(child.getValue()).append(")");
-                builder.append("-");
+            for (Map.Entry<Vertex, Edge> child: map.getValue().entrySet()){
+                builder.append(child.getKey().getName()).append("(").append(child.getValue().getName()).append(")");
+                builder.append("[").append(child.getValue().getWeight()).append("]");
+                builder.append("--");
             }
             builder.append("\n");
 

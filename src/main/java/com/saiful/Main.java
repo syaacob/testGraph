@@ -54,7 +54,7 @@ public class Main {
                     System.out.print("train "+next.getTrain() + " current weight "+next.getCurrentCapacity()+ " delivered package "+ pkg.getName() + " start at "+ startNode + " destination "+ pkg.getDestination());
                     GraphTraversal traversal = new GraphTraversal(graph);
                     Map<String, Integer> computePathResult = traversal.computePath(new Vertex(startNode));
-                    System.out.println(" computePath "+ computePathResult);
+                    System.out.println(" computed distance summary "+ computePathResult);
                     List<String> shortestPath = traversal.getShortestPath(traversal.getPreviousNode(), new Vertex(startNode), new Vertex(pkg.getDestination()));
                     System.out.print(" using path "+ shortestPath);
                     int duration = computePathResult.get(pkg.getDestination());
